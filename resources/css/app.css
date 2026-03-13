@@ -1,0 +1,125 @@
+@import 'tailwindcss';
+
+/* 1. CONFIGURAÇÕES GERAIS DO SISTEMA */
+body {
+    background-color: #f3ebd9 !important; /* Tom de papel/creme */
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+/* NAVBAR CUSTOMIZADA (Ajustada para a nova Logo) */
+header {
+    background-color: rgba(253, 237, 217, 0.85) !important; /* Tom terracota claro da placa */
+    backdrop-filter: blur(12px);
+    border-bottom: 2px solid #e67e22 !important; /* Laranja da logo */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+h2, .titulo-principal, .titulo-sistema, .boas-vindas {
+    color: #4a3f35; /* Marrom café da logo */
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+/* Ajuste da Logo para destaque na Navbar */
+.logo-header {
+    height: 100px; /* Aumentado para a placa aparecer bem */
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo-header:hover {
+    transform: scale(1.05);
+}
+
+.subtitulo-navbar {
+    margin-top: -5px;
+    color: #856404 !important; /* Dourado/Marrom para o "da Marmita" */
+}
+
+/* 2. CORES DE IDENTIFICAÇÃO */
+.cor-pedidos { border-left: 8px solid #0d6efd !important; background-color: #f0f7ff; }
+.cor-clientes { border-left: 8px solid #198754 !important; background-color: #f0fff4; }
+.cor-marmitas { border-left: 8px solid #ffc107 !important; background-color: #fffdf0; }
+
+/* 3. BOTÕES E CARDS */
+.btn-glass {
+    background: rgba(255, 255, 255, 0.4) !important;
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #4a3f35 !important;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border-radius: 12px;
+}
+
+.btn-glass:hover {
+    background: rgba(255, 255, 255, 0.8) !important;
+    transform: translateY(-2px);
+    color: #e67e22 !important; /* Laranja da placa no hover */
+}
+
+.card-hover {
+    border-radius: 20px !important;
+    transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* 4. MURAL DE AVISOS (POST-IT) */
+.card-lembrete {
+    background-color: #fff9c4;
+    border-left: 8px solid #fbc02d !important;
+    border-radius: 15px;
+    border: none;
+}
+
+.titulo-lembrete { color: #856404; font-weight: bold; }
+
+.lembrete-texto {
+    font-size: 1.1rem;
+    color: #5d4037;
+    line-height: 1.6;
+}
+
+/* 5. LETREIRO ANIMADO */
+.faixa-animada {
+    background-color: #fff9c4;
+    border-radius: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.texto-movimento {
+    display: inline-block;
+    padding-left: 100%;
+    animation: mover-letreiro 25s linear infinite;
+    color: #856404;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@keyframes mover-letreiro {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+/* 6. CONFIGURAÇÕES DO LARAVEL/TAILWIND */
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
