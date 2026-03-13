@@ -5,7 +5,15 @@ Bem-vinda ao repositório do **Cantinho da Marmita**, uma aplicação desenvolvi
 ![Banner do Cantinho da Marmita](public/img/banner.png)
 
 ## 🎯 Sobre o Projeto
-Este sistema foi criado para automatizar processos de uma marmitaria, permitindo o controle de entregas e organização da produção diária em Muriaé-MG.
+O **Cantinho da Marmita** (uma loja fictícia de refeições caseiras) é um sistema de gestão interna desenvolvido com o objetivo principal de facilitar o dia a dia dos colaboradores. 
+
+O foco central da aplicação é otimizar a **movimentação das marmitas**, garantindo que desde o momento do pedido até a entrega final, a equipe tenha um controle claro e ágil de cada etapa do processo.
+
+### 🍱 Facilitando a Operação
+* **Agilidade no Fluxo:** Substitui anotações manuais por um painel digital, evitando erros na separação dos pedidos.
+* **Controle de Movimentação:** Permite acompanhar em tempo real quais marmitas estão em preparo, quais já estão prontas e quais saíram para entrega.
+* **Organização Diária:** Facilita a visualização do estoque de marmitas disponíveis para o dia, ajudando a equipe a se planejar melhor para o horário de pico.
+* **Interface Amigável:** Design pensado para ser simples e funcional, focado na produtividade de quem trabalha na operação.
 
 ## 🛠️ Tecnologias Utilizadas
 * **PHP / Laravel** (Framework principal)
