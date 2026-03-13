@@ -1,6 +1,5 @@
-
+##Seja bem vindo!
 ![Banner do Cantinho da Marmita](public/img/banner.png)
-Bem-vinda ao repositório do **Cantinho da Marmita**, uma aplicação desenvolvida para facilitar a gestão de pedidos, clientes e cardápios de marmitas caseiras com foco em agilidade e carinho.
 
 ## 🎯 Sobre o Projeto
 O **Cantinho da Marmita** (uma loja fictícia de refeições caseiras) é um sistema de gestão interna desenvolvido com o objetivo principal de facilitar o dia a dia dos colaboradores. 
