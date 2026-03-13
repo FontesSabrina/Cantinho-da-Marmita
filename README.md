@@ -1,4 +1,4 @@
-##Seja bem vindo!
+## Seja bem vindo!
 ![Banner do Cantinho da Marmita](public/img/banner.png)
 
 ## 🎯 Sobre o Projeto
