@@ -2,7 +2,7 @@
 
 Bem-vinda ao repositório do **Cantinho da Marmita**, uma aplicação desenvolvida para facilitar a gestão de pedidos, clientes e cardápios de marmitas caseiras com foco em agilidade e carinho.
 
-![Banner do Cantinho da Marmita](img/banner.png)
+![Banner do Cantinho da Marmita](public/img/banner.png)
 
 ## 🎯 Sobre o Projeto
 Este sistema foi criado para automatizar processos de uma marmitaria, permitindo o controle de entregas e organização da produção diária em Muriaé-MG.
